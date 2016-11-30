@@ -1,0 +1,10 @@
+#write a function that finds all the numbers from 1 to 500 that are divisble by 3. Do this 2 ways
+
+n = range(0,501)
+
+def divideByThree(y):
+  for x in y:
+    if x % 3 == 0:
+      print(x)
+
+print(divideByThree(n))
